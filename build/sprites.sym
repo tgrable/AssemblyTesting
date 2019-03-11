@@ -1,0 +1,20 @@
+.label kernal_chrout=$ffd2
+.label enemy=$3
+.label main=$900
+.namespace sprites {
+  .label vertical_stretch_bits=$d017
+  .label positions=$d000
+  .label colors=$d027
+  .label pointers=$7f8
+  .label enable_bits=$d015
+}
+.label enemyXPos=$7004
+.label playerXPos=$7000
+.label end=$9ef
+.label player=$1
+.label joystick_port_2=$dc00
+.label joystick_port_1=$dc01
+.label enemyYPos=$7006
+.label playerYPos=$7002
+.label game_loop=$937 {
+}
